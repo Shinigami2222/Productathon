@@ -1,0 +1,122 @@
+
+
+/* ************************** Title ********************** */
+
+h1 {
+ font-family: 'Montserrat-Black', sans-serif;
+ font-weight: 900;
+ font-size: 3.3rem;
+ line-height: 1.5;
+
+ /* padding-top: 4.5rem; */
+ /* padding-bottom: 4.5rem; */
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding : 3% 10%;
+  /* padding-top: 4rem; */
+}
+
+.navbar {
+  padding-bottom: 4rem;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.login {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight : 400;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 100;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/************************************* features ****************************/
+#features {
+  text-align: center;
+}
+
+.feature-box {
+  padding: 8% 3%;
+}
+
+.feature-para {
+  color: #8f8f8f;
+  /* padding: 0 7%; */
+}
+
+.feature-icon {
+  color: #ef8172;
+  /* font-size: 3.5rem; */
+  line-height: 1.6;
+  /* padding-bottom: 5%; */
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+h3 {
+  display: block;
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+/* *********************** categories ************************* */
+#categories {
+  padding: 8% 12%;
+  color: #fff;
+  text-align: center;
+  background-color: #ef8172;
+}
+.category-images {
+  width: 60%;
+  height: 80%;
+  border-radius: 100%;
+}
+.categoty-para {
+  padding: 20px 20px;
+}
+/* **************************** footer **************************** */
+#footer {
+  padding: 4% 12%;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: #222831;
+  color: white;
+}
+.footer-para {
+  padding-top: 20px;
+}
+.foot-link {
+  color: #7e7474;
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 100;
+}
+.foot-link:hover {
+  color: white;
+}
