@@ -120,8 +120,32 @@ h3 {
 .foot-link:hover {
   color: white;
 }
+/* ************************ g map and contact us *************************** */
+.map-container {
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe {
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+padding: 100px;
+}
 
-/* ************************ heading ************************* */
+/* ****************************** tack-order ****************************** */
+.track-order-section {
+  background-color: #ff4c68;
+  color: white;
+  padding: 4% 12%;
+}
+.track-order-heading {
+  text-align: center;
+}
+/* ************************ details-heading ************************* */
 #details {
   text-align: center;
   background-color: #ff4c68;
