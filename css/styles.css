@@ -135,7 +135,22 @@ width:100%;
 position:absolute;
 padding: 100px;
 }
-
+/* ****************************** electronics ********************************* */
+.electronics-navbar {
+  background-color: #ff4c68;
+  color: white;
+  padding: 4% 12%;
+}
+.place-order {
+  background-color: #ff4c68;
+  color: #fff;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 4% 12%;
+}
+.phone-img {
+  border-radius: 8%;
+}
 /* ****************************** tack-order ****************************** */
 .track-order-section {
   background-color: #ff4c68;
