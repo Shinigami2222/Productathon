@@ -120,3 +120,16 @@ h3 {
 .foot-link:hover {
   color: white;
 }
+
+/* ************************ heading ************************* */
+#details {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+.details-body {
+  background-color: #ff4c68;
+}
+.select-detail {
+  padding: 4% 12%;
+}
