@@ -1,15 +1,13 @@
-
-
 /* ************************** Title ********************** */
 
 h1 {
- font-family: 'Montserrat-Black', sans-serif;
- font-weight: 900;
- font-size: 3.3rem;
- line-height: 1.5;
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+  font-size: 3.3rem;
+  line-height: 1.5;
 
- /* padding-top: 4.5rem; */
- /* padding-bottom: 4.5rem; */
+  /* padding-top: 4.5rem; */
+  /* padding-bottom: 4.5rem; */
 }
 
 #title {
@@ -18,7 +16,7 @@ h1 {
 }
 
 .container-fluid {
-  padding : 3% 10%;
+  padding: 3% 10%;
   /* padding-top: 4rem; */
 }
 
@@ -34,8 +32,8 @@ h1 {
 }
 
 .navbar-brand {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight : 400;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
   font-size: 2.5rem;
 }
 
@@ -46,7 +44,7 @@ h1 {
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: 'Montserrat-Black', sans-serif;
+  font-family: "Montserrat-Black", sans-serif;
   font-weight: 100;
 }
 
@@ -81,7 +79,7 @@ h1 {
 
 h3 {
   display: block;
-  font-family: 'Montserrat-Black', sans-serif;
+  font-family: "Montserrat-Black", sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -114,7 +112,7 @@ h3 {
 .foot-link {
   color: #7e7474;
   font-size: 1.2rem;
-  font-family: 'Montserrat-Black', sans-serif;
+  font-family: "Montserrat-Black", sans-serif;
   font-weight: 100;
 }
 .foot-link:hover {
@@ -122,18 +120,18 @@ h3 {
 }
 /* ************************ g map and contact us *************************** */
 .map-container {
-overflow:hidden;
-padding-bottom:56.25%;
-position:relative;
-height:0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
 }
 .map-container iframe {
-left:0;
-top:0;
-height:100%;
-width:100%;
-position:absolute;
-padding: 100px;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  padding: 100px;
 }
 /* ****************************** electronics ********************************* */
 .electronics-navbar {
@@ -170,5 +168,5 @@ padding: 100px;
   background-color: #ff4c68;
 }
 .select-detail {
-  padding: 4% 12%;
+  padding: 3% 10%;
 }
