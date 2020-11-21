@@ -30,13 +30,42 @@
 
 <body class="details-body">
 
+
+
   <section id="details">
+
+    <!-- Nav Bar -->
+    <nav class="navbar  navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="">Productathon</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="">Offers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#categories">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="before-order.html">Tracking Orders</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="details.html">Change my address</a>
+          </li> -->
+        </ul>
+      </div>
+    </nav>
+
+
     <h1>Confirm Your Details</h1>
 
 
 
 
   <div class="select-detail">
+<<<<<<< HEAD
     <label for="cars">Choose your delivery Location:</label>
     <select name="Address" id="address">
       <option value="My Live Location">Live Location</option>
@@ -44,26 +73,76 @@
       <option value="Work">Work</option>
       <option value="Add Address">Add Address</option>
     </select>
+=======
+    <div class="row">
+      <div class="col">
+        <label for="cars">Choose your delivery Location:</label>
+      </div>
+      <div class="col">
+        <select name="Address" id="address">
+          <option value="My Live Location">Live Location</option>
+          <option value="Home">Home</option>
+          <option value="Work">Work</option>
+          <option value="Add Address">Add Address</option>
+        </select>
+      </div>
+    </div>
+
+
+>>>>>>> e6421a7886e94b44e4606fd4bb48dd6f84889767
   </div>
 
   <div class="select-detail">
-    <label for="appt">Select a date:</label>
-    <input type="date" id="appt" name="appt">
+    <div class="row">
+      <div class="col">
+        <label for="appt">Select a date:</label>
+      </div>
+      <div class="col">
+        <input type="date" id="appt" name="appt">
+      </div>
+    </div>
+
+
   </div>
 
   <div class="select-detail">
-  <label for="cars">Choose your slot:</label>
-      <select name="Address" id="address">
-        <option value="Morning">Morning</option>
-        <option value="Afternoon">Afternoon</option>
-      </select>
+    <div class="row">
+      <div class="col">
+        <label for="cars">Choose your slot:</label>
+      </div>
+      <div class="col">
+        <select name="Address" id="address">
+          <option value="Morning">Morning</option>
+          <option value="Afternoon">Afternoon</option>
+        </select>
+      </div>
+    </div>
+
+
   </div>
 
   <div class="select-detail">
-    <button>Confirm</button>
+    <button type="button" class="btn btn-outline-light btn-lg">Confirm</button>
   </div>
 
   </section>
+
+  <footer id="footer">
+    <div class="row">
+      <div class="col-sm-4">
+        <a class="foot-link" href="">Facebook</a>
+      </div>
+      <div class="col-sm-4">
+        <a class="foot-link" href="">Twitter</a>
+      </div>
+      <div class="col-sm-4">
+        <a class="foot-link" href="">Instagram</a>
+      </div>
+    </div>
+
+    <p class="footer-para">© Copyright 2020 Productathon</p>
+
+  </footer>
 
 </body>
 
